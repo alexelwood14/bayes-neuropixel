@@ -1,1 +1,3 @@
-This is the first successful chain to process for the Poisson Process Model
+chain = sample(model, MH(), 1000)
+
+This is the first successful chain to process for the Poisson Process Model. However, rhat values are far too high and ess is too low. An analysis of the chains shows that the sampler is not exploring the distribution fully and the density function of some of the parameters looks bimodal which may indicate a bottleneck in the geometry of the posterior (if my understanding is correct).
