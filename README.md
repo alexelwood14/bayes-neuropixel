@@ -16,3 +16,7 @@ This activity was carried out as a part of the Bristol Bayes for the Brain 2022 
 3. [Poisson Process Model](poisson-process-model.ipynb) builds upon the second model to use the pupil area to model the parameter of a Poisson model for the spike counts for each cluster. 
 
 (These models are a work in progress)
+
+## Saved Results
+
+Saved plots and chains can be found in the 'results' folder. Each saved result is held in a directory named with the time that it was recorded. This timestamp corresponds to the name of a tag, so that the code that produced that result can be identified.
